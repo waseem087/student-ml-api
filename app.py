@@ -2,7 +2,10 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 
-app = FastAPI(title="student-ml-api")
+app = FastAPI(
+    title="student-ml-api",
+    description="Simple ML prediction API for the Advanced MLOps Exercise"
+)
 
 VERSION = "1.0.0"
 
