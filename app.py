@@ -19,7 +19,8 @@ def health():
     return {
         "status": "healthy",
         "application": "student-ml-api",
-        "version": VERSION
+        "application_version": "1.1.0",
+        "model_version": "model-1"
     }
 
 
