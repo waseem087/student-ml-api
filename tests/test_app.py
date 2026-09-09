@@ -15,7 +15,7 @@ def test_health():
 
     assert data["status"] == "healthy"
     assert data["application"] == "student-ml-api"
-    assert data["version"] == "9.9.9"
+    assert data["version"] == "1.0.0"
 
 
 def test_predict_success():
